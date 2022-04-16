@@ -1,0 +1,19 @@
+
+
+#chessContainer{
+    width: 500px;
+    height:500px;
+    border: 5px solid rgb(255, 251, 0);
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+p{
+    font-size: 40px;
+    
+    color: blue;
+
+    text-align: center;
+
+    font-family: 'Times New Roman', Times, serif;
+}
