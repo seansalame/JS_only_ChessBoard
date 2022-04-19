@@ -1,19 +1,47 @@
-
-
-#chessContainer{
-    width: 500px;
-    height:500px;
-    border: 5px solid rgb(255, 251, 0);
-    margin:auto;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
+table {
+    border: solid 3px red;
+    margin: auto;
+    border-collapse: collapse;
 }
-p{
+
+img {
+    height: 30;
+    width: 30;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+td {
+    height: 70px;
+    width: 70px;
+    font-family: 'Times New Roman';
+    color: rgba(255, 0, 191, 0.3);
+    text-align: inherit;
+}
+
+.dark-cell {
+    background-color: brown;
+    height: 70px;
+    width: 70px;
+}
+
+.light-cell {
+    background-color: rgb(240, 240, 203);
+    height: 70px;
+    width: 70px;
+}
+
+p {
     font-size: 40px;
-    
-    color: blue;
-
     text-align: center;
+}
 
-    font-family: 'Times New Roman', Times, serif;
+b {
+    text-decoration: underline;
+}
+
+.selected {
+    background-color: rgb(109, 109, 105);
 }
