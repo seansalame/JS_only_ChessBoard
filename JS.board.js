@@ -56,13 +56,12 @@ function getInitialBoard() {
     return result;
 }
 
-//addressing the image file individually
 function addImage(cell, type, name) {
     const image = document.createElement('img');
     image.src = 'images/' + type +"/"+ name + '.png';
     cell.appendChild(image);
 }
-// places pieces according to their right chess placement
+
 function addImageByIndex(cell, player, index) {
     if (index === 0 || index === 7) {
         addImage(cell, player, 'rook');
