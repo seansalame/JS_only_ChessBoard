@@ -48,3 +48,22 @@ b {
 .possible-move {
     background: rgb(232, 235, 61)
   }
+
+  .winner-dialog {
+
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    background: #d4af37;
+    padding: 50px 0;
+    border-radius: 30px;
+    width: max-content;
+    z-index: 2;
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    font-size: 30px;
+   }
